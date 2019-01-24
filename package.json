@@ -1,0 +1,23 @@
+{
+  "name": "simple-html-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass src/scss/main.scss src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRGavrila/simple-html-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRGavrila/simple-html-sass/issues"
+  },
+  "homepage": "https://github.com/CRGavrila/simple-html-sass#readme"
+}
