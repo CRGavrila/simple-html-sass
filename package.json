@@ -5,10 +5,13 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "live-server": "^1.2.1",
     "node-sass": "^4.11.0"
   },
   "scripts": {
-    "compile:sass": "node-sass src/scss/main.scss src/css/style.css"
+    "compile:sass": "node-sass src/scss/main.scss src/css/style.css",
+    "compile:sass:watch": "node-sass src/scss/main.scss src/css/style.css -w",
+    "dev:live": "live-server src"
   },
   "repository": {
     "type": "git",
