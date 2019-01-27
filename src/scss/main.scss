@@ -1,4 +1,9 @@
-@import './colors.scss';
+@import './base/base';
+@import './abstracts/variables';
+@import './base/colors';
+@import './abstracts/mixin';
+@import './base/typography';
+@import './layout/grid';
 
 .Theme-Header {
     color: $main-header-color;
