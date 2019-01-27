@@ -5,6 +5,10 @@
 @import './base/typography';
 @import './layout/grid';
 
+// Pages
+@import './pages/header';
+@import './pages/about';
+
 .Theme-Header {
     color: $main-header-color;
     text-align: center;
@@ -15,4 +19,13 @@
 
     font-size: 2rem;
     text-decoration: none;
+}
+
+.Top-Limit {
+    display: block;
+
+    height: 50px;
+    width: 100%;
+
+    background: red;
 }
