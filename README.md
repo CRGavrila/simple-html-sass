@@ -9,5 +9,5 @@ run following scripts:
 
 You can run 2. and 3. in different terminals to make development easier
 
-
+GRID:
 Added a grid by floating, added clear fixing the float with pseudo ::after (display: table, clear: both) and created a mixin an included.
