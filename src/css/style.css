@@ -47,4 +47,9 @@ body {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .Theme-Header {
-  color: blue; }
+  color: blue;
+  text-align: center; }
+
+.Page-Link {
+  font-size: 2rem;
+  text-decoration: none; }
