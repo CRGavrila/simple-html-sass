@@ -12,5 +12,9 @@ html {
 }
 
 body {
+    font-family: $default-font-size;
+    font-weight: $defualt-font-weight;
+    line-height: 1.7;
+    padding: 3rem;
     box-sizing: border-box;
 }
