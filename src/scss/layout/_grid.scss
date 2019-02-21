@@ -3,8 +3,6 @@
     max-width: $grid-width;
     margin: 0 auto;
 
-    background: $main-wheat-bg;
-
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
     }
@@ -20,8 +18,6 @@
     // select all attributes that start with col- because of ^
     [class^="col-"] {
         float: left;
-
-        background: $main-col-bg;
 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
