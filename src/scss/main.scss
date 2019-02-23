@@ -9,11 +9,13 @@
 
 @import './components/button';
 @import './components/composition';
+@import "components/feature-box";
 @import './components/card';
 
 // Pages
 @import './pages/header';
 @import './pages/about';
+@import './pages/features';
 @import './pages/tours';
 
 @import './pages/combined';
