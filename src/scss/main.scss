@@ -1,16 +1,20 @@
+@import './base/colors';
+@import './abstracts/variables';
 @import './base/typography';
 @import './base/base';
-@import './abstracts/variables';
 @import './base/animations';
-@import './base/colors';
 @import './abstracts/mixin';
 @import './layout/grid';
 @import './base/utilities';
+
 @import './components/button';
+@import './components/composition';
 
 // Pages
 @import './pages/header';
 @import './pages/about';
+
+@import './pages/combined';
 
 .Theme-Header {
     color: $main-header-color;
